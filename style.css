@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 16px;
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -19,40 +23,40 @@ body{
 
 .card_desing{
     background-color: hsl(10, 79%, 65%);
-    width: 370px;
-    height: 75px;
-    border-radius: 10px;
+    width: 23.125rem;
+    height: 4.688rem;
+    border-radius: 0.625rem;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 0.938rem;
     color: hsl(27, 66%, 92%);
 }
 
 .text_card h2{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .text_card h4{
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 
 
 .card2{
     background-color: hsl(33, 100%, 98%);
-    width: 370px;
-    height: 320px;
-    margin-top: 15px;
-    border-radius: 10px;
-    padding: 15px;
+    width: 23.125rem;
+    height: 21.875rem;
+    margin-top: 0.938rem;
+    border-radius: 0.625rem;
+    padding: 0.938rem;
 }
 
 .bars{
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
-    padding: 20px 5 px;
-    border-bottom: 1.5px solid hsl(28, 10%, 53%)
+    margin-top: 1.875rem;
+    padding: 1.25rem 0.313rem;
+    border-bottom: 0.094rem solid hsl(28, 10%, 53%)
 }
 
 .flexbars{
@@ -64,24 +68,24 @@ body{
 }
 
 .valor{
-    margin-bottom: 3px;
-    font-size: 10px;
+    margin-bottom: 0.188rem;
+    font-size: 0.625rem;
     color: hsl(27, 66%, 92%);
     background-color: hsl(25, 47%, 15%);
-    padding: 2px;
-    border-radius: 4px;
+    padding: 0.125rem;
+    border-radius: 0.25rem;
     visibility: hidden;
 }
 
 .b_text{
-    font-size: 12px;
-    padding: 4px;
+    font-size: 0.75rem;
+    padding: 0.25rem;
     color: hsl(28, 10%, 53%);
 }
 
 .w_bar{
-    width: 34px;
-    border-radius: 5px;
+    width: 2.125rem;
+    border-radius: 0.313rem;
 }
 
 .w_bar:hover{
@@ -99,37 +103,37 @@ body{
 
 }
 .h_bar1{
-    height: 37px;
+    height: 2.313rem;
     background-color: hsl(10, 79%, 65%);
 }
 
 .h_bar2{
-    height: 68px;
+    height: 4.25rem;
     background-color: hsl(10, 79%, 65%);
 }
 
 .h_bar3{
-    height: 100px;
+    height: 6.25rem;
     background-color: hsl(10, 79%, 65%);
 }
 
 .h_bar4{
-    height: 60px;
+    height: 3.75rem;
     background-color: hsl(10, 79%, 65%);
 }
 
 .h_bar5{
-    height: 44px;
+    height: 2.75rem;
     background-color: hsl(10, 79%, 65%);
 }
 
 .h_bar6{
-    height: 85px;
+    height: 5.313rem;
     background-color: hsl(10, 79%, 65%);
 }
 
 .h_bar7{
-    height: 51px;
+    height: 3.188rem;
     background-color: hsl(10, 79%, 65%);
 }
 
@@ -138,18 +142,18 @@ body{
 .text_b{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .ttw{
     color: hsl(28, 10%, 53%);
-    font-size: 13px;
+    font-size: 0.813rem;
 }
 
 .price{
-    font-size: 27px;
+    font-size: 1.688rem;
     color: hsl(25, 47%, 15%);
-    margin-top: 3px;
+    margin-top: 0.188rem;
 }
 
 .text_right{
@@ -161,10 +165,23 @@ body{
 }
 
 .text_right h5{
-    font-size: 12px;
+    font-size: 0.75rem;
     color: hsl(25, 47%, 15%);
 }
 .text_right h4{
-    font-size: 10px;
+    font-size: 0.625rem;
     color: hsl(28, 10%, 53%);
 }
+
+@media (min-widht: 375px) {
+    html{
+        font-size: 13px;
+    }
+}
+
+@media (min-widht: 1440px) {
+    html{
+        font-size: 20px;
+    }
+}
+
